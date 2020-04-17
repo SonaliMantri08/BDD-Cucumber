@@ -65,10 +65,14 @@ public class StepDefinationWithExamplesKeyword {
 
 	@Then("^User is directed to home page$")
 	public void user_is_directed_to_home_page() throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
-		throw new PendingException();
+		wait = new WebDriverWait(driver, 5);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[aria-label='Toggle menu']")));
+		String title = driver.getTitle();
+		Assert.assertEquals("Job Search | Indeed", title);
+		System.out.println("Successful login");
+		driver.quit();
 	}
-
+/*
 	@When("^User enters john_doe(\\d+)@mailinator\\.com and john_doe$")
 	public void user_enters_john_doe_mailinator_com_and_john_doe(int arg1) throws Throwable {
 		wait = new WebDriverWait(driver, 5);
@@ -77,5 +81,5 @@ public class StepDefinationWithExamplesKeyword {
 		Assert.assertEquals("Job Search | Indeed", title);
 		System.out.println("Successful login");
 		driver.quit();
-	}
+	}*/
 }
