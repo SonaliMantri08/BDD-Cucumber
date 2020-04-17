@@ -1,22 +1,8 @@
 package stepDefinition;
 
-import java.util.concurrent.TimeUnit;
-
-import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import cucumber.api.PendingException;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
-
 public class SignInStepDefination {
 
-	public static WebDriver driver;
+	/*public static WebDriver driver;
 	public static WebDriverWait wait;
 
 	@Given("^User opens the landing page$")
@@ -72,5 +58,5 @@ public class SignInStepDefination {
 		System.out.println("Successful login");
 		driver.quit();
 	}
-
+*/
 }

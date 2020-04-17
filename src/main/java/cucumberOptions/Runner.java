@@ -7,12 +7,13 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="src/main/java/features/signIn.feature",
+		features="src/main/java/features/signInWithExamplesKeyword.feature",
 		glue= {"stepDefinition"},
 		plugin= {"pretty","html:test-output"},
 		monochrome=true,
-		dryRun=false
+		dryRun=true
 		)
-public class Runner {
 
+public class Runner {
+//features="src/main/java/features/signIn.feature"
 }
