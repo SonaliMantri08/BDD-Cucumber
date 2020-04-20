@@ -66,35 +66,35 @@ formatter.match({
   "location": "SignInStepDefinitionUsingMaps.user_is_on_the_website_s_landing_page()"
 });
 formatter.result({
-  "duration": 11454995200,
+  "duration": 11767126400,
   "status": "passed"
 });
 formatter.match({
   "location": "SignInStepDefinitionUsingMaps.user_clicked_the_link_Sign_in()"
 });
 formatter.result({
-  "duration": 4812774300,
+  "duration": 2820930200,
   "status": "passed"
 });
 formatter.match({
   "location": "SignInStepDefinitionUsingMaps.user_moves_to_sign_in_page()"
 });
 formatter.result({
-  "duration": 8757000,
+  "duration": 9709900,
   "status": "passed"
 });
 formatter.match({
   "location": "SignInStepDefinitionUsingMaps.user_types_valid_credentials_and_click_sign_in(DataTable)"
 });
 formatter.result({
-  "duration": 11552101800,
+  "duration": 9152027100,
   "status": "passed"
 });
 formatter.match({
   "location": "SignInStepDefinitionUsingMaps.browser_is_closed()"
 });
 formatter.result({
-  "duration": 778509500,
+  "duration": 733322700,
   "status": "passed"
 });
 });
