@@ -13,3 +13,4 @@ Then User is directed to home page
 Examples:
 | email | password |
 | kom_mariee@mailinator.com | kom_mariee |
+| john_doe1@mailinator.com | john_doe |
