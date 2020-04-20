@@ -41,7 +41,7 @@ formatter.match({
   "location": "StepDefinition_Tagging_Example.this_is_a_positive_login_test()"
 });
 formatter.result({
-  "duration": 81927499,
+  "duration": 88379600,
   "status": "passed"
 });
 formatter.scenario({
@@ -79,7 +79,7 @@ formatter.match({
   "location": "StepDefinition_Tagging_Example.this_is_an_negative_login_test()"
 });
 formatter.result({
-  "duration": 85699,
+  "duration": 82999,
   "status": "passed"
 });
 formatter.scenario({
@@ -109,7 +109,7 @@ formatter.match({
   "location": "StepDefinition_Tagging_Example.this_is_a_login_test_case_with_correct_Google_credentials()"
 });
 formatter.result({
-  "duration": 57100,
+  "duration": 79400,
   "status": "passed"
 });
 });
