@@ -23,32 +23,9 @@ public class StepDefinition_Hooks {
 		System.out.println("this is the third step");
 	}
 
-	@Given("^this is the step one$")
-	public void this_is_the_step_one() {
-		System.out.println("this is the step one");
-	}
 
-	@When("^this is the step two$")
-	public void this_is_the_step_two() {
-		System.out.println("this is the step two");
-	}
 
-	@When("^this is the step two (.+)$")
-	public void this_is_the_step_two(String name) {
-		System.out.println("this is the step two: " + name);
-	}
-
-	@Then("^this is the step three$")
-	public void this_is_the_step_three() {
-		System.out.println("this is the step three");
-	}
-
-	@Then("^this is the step three (.+)$")
-	public void this_is_the_step_three(String surname) {
-		System.out.println("this is the step three: " + surname);
-	}
-
-	@Before
+/*	@Before
 	public void setUp() {
 		System.out.println("This will run before scenario");
 	}
@@ -56,5 +33,27 @@ public class StepDefinition_Hooks {
 	@After
 	public void tearDown() {
 		System.out.println("This will run after scenario");
-	}
+	}*/
+	
+	// Code for background.feature
+	@Before(order=1)
+    public void beforeScenario(){
+        System.out.println("Start the browser and Clear the cookies");
+    } 
+ @Before(order=0)
+    public void beforeScenarioStart(){
+        System.out.println("-----------------Start of Scenario-----------------");
+    } 
+ 
+ 
+ @After(order=0)
+    public void afterScenarioFinish(){
+        System.out.println("-----------------End of Scenario-----------------");
+    } 
+ @After(order=1)
+    public void afterScenario(){
+        System.out.println("Log out the user and close the browser");
+    } 
+ 
+	
 }
