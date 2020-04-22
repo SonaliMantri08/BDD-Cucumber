@@ -1,3 +1,5 @@
+import org.openqa.selenium.chrome.ChromeDriverService;
+
 /*package stepDefinition;
 
 import java.util.List;
@@ -23,6 +25,7 @@ public class StepDefinitionForDataTable {
 	@Given("^User comes on the landing page$")
 	public void user_comes_on_the_landing_page() {
 		driver = new ChromeDriver();
+		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://au.indeed.com/");

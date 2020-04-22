@@ -1,3 +1,5 @@
+import org.openqa.selenium.chrome.ChromeDriverService;
+
 /*package stepDefinition;
 
 import java.util.List;
@@ -25,6 +27,7 @@ public class SignInStepDefinitionForDataTableWithHeader {
 	@Given("^User is on the website landing page$")
 	public void user_is_on_the_website_landing_page() {
 		driver = new ChromeDriver();
+		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://au.indeed.com/");

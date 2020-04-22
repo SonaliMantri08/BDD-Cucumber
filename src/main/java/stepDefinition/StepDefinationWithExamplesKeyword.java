@@ -1,4 +1,4 @@
-/*package stepDefinition;
+package stepDefinition;
 
 import java.util.concurrent.TimeUnit;
 
@@ -6,6 +6,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -20,6 +21,11 @@ public class StepDefinationWithExamplesKeyword {
 
 	@Given("^User comes to the landing page$")
 	public void user_comes_to_the_landing_page() throws Throwable {
+		
+		/*The statement below will remove the severe error warning issue in console logs
+		 * System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
+		 * */
+		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -73,4 +79,3 @@ public class StepDefinationWithExamplesKeyword {
 	}
 
 }
-*/

@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="src/main/java/features/hooks.feature",
+		features="src/main/java/features/signInWithExamplesKeyword.feature",
 		glue= {"stepDefinition"},
 		plugin= {"pretty","html:test-output"},
 		monochrome=true,
@@ -22,6 +22,7 @@ public class Runner {
 	//features="src/main/java/features/signInWithDataTableWithHeader.feature"
 	//features="src/main/java/features/signInUsingMaps.feature"
 	//features="src/main/java/features/tagging.feature"
+	//features="src/main/java/features/hooks.feature
 	
 	/*
 	 * tags= {"@Smoke, @EndToEnd"}

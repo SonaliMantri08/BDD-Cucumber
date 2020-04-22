@@ -1,413 +1,313 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/main/java/features/hooks.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/main/java/features/signInWithExamplesKeyword.feature");
 formatter.feature({
   "line": 1,
-  "name": "Test Hooks",
+  "name": "Validating user login for Indeed website",
   "description": "",
-  "id": "test-hooks",
+  "id": "validating-user-login-for-indeed-website",
   "keyword": "Feature"
 });
-formatter.before({
-  "duration": 266200,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 3,
-  "name": "This is 1st scenario is to test hooks functionality",
-  "description": "",
-  "id": "test-hooks;this-is-1st-scenario-is-to-test-hooks-functionality",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 4,
-  "name": "this is the first step",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "this is the second step",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "this is the third step",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition_Hooks.this_is_the_first_step()"
-});
-formatter.result({
-  "duration": 72908600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinition_Hooks.this_is_the_second_step()"
-});
-formatter.result({
-  "duration": 67900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinition_Hooks.this_is_the_third_step()"
-});
-formatter.result({
-  "duration": 289900,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 69700,
-  "status": "passed"
-});
 formatter.scenarioOutline({
-  "line": 8,
-  "name": "",
-  "description": "This is 2nd scenario is to test hooks functionality with examples keyword",
-  "id": "test-hooks;",
+  "line": 3,
+  "name": "Validating user login with valid credentials",
+  "description": "",
+  "id": "validating-user-login-for-indeed-website;validating-user-login-with-valid-credentials",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 10,
-  "name": "this is the step one",
+  "line": 5,
+  "name": "User comes to the landing page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 11,
-  "name": "this is the step two \u003cname\u003e",
+  "line": 6,
+  "name": "User click Sign in link",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "User is directed to sign in page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "User enters \u003cemail\u003e and \u003cpassword\u003e",
   "keyword": "When "
 });
 formatter.step({
-  "line": 12,
-  "name": "this is the step three \u003csurname\u003e",
+  "line": 9,
+  "name": "User unselect the Stay signed in checkbox",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "User click the Sign In button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 11,
+  "name": "User is directed to home page",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 14,
+  "line": 13,
   "name": "",
   "description": "",
-  "id": "test-hooks;;",
+  "id": "validating-user-login-for-indeed-website;validating-user-login-with-valid-credentials;",
   "rows": [
     {
       "cells": [
-        "name",
-        "surname"
+        "email",
+        "password"
+      ],
+      "line": 14,
+      "id": "validating-user-login-for-indeed-website;validating-user-login-with-valid-credentials;;1"
+    },
+    {
+      "cells": [
+        "kom_mariee@mailinator.com",
+        "kom_mariee"
       ],
       "line": 15,
-      "id": "test-hooks;;;1"
+      "id": "validating-user-login-for-indeed-website;validating-user-login-with-valid-credentials;;2"
     },
     {
       "cells": [
-        "John",
-        "Doe"
+        "john_doe1@mailinator.com",
+        "john_doe"
       ],
       "line": 16,
-      "id": "test-hooks;;;2"
-    },
-    {
-      "cells": [
-        "Kom",
-        "Mary"
-      ],
-      "line": 17,
-      "id": "test-hooks;;;3"
-    },
-    {
-      "cells": [
-        "Sam",
-        "Moon"
-      ],
-      "line": 18,
-      "id": "test-hooks;;;4"
-    },
-    {
-      "cells": [
-        "Orio",
-        "Galaxy"
-      ],
-      "line": 19,
-      "id": "test-hooks;;;5"
+      "id": "validating-user-login-for-indeed-website;validating-user-login-with-valid-credentials;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 73500,
+  "duration": 356500,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 15,
+  "name": "Validating user login with valid credentials",
+  "description": "",
+  "id": "validating-user-login-for-indeed-website;validating-user-login-with-valid-credentials;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 5,
+  "name": "User comes to the landing page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "User click Sign in link",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "User is directed to sign in page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "User enters kom_mariee@mailinator.com and kom_mariee",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "User unselect the Stay signed in checkbox",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "User click the Sign In button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 11,
+  "name": "User is directed to home page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinationWithExamplesKeyword.user_comes_to_the_landing_page()"
+});
+formatter.result({
+  "duration": 7330258100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinationWithExamplesKeyword.user_click_Sign_in_link()"
+});
+formatter.result({
+  "duration": 2453053700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinationWithExamplesKeyword.user_is_directed_to_sign_in_page()"
+});
+formatter.result({
+  "duration": 73082500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "kom_mariee@mailinator.com",
+      "offset": 12
+    },
+    {
+      "val": "kom_mariee",
+      "offset": 42
+    }
+  ],
+  "location": "StepDefinationWithExamplesKeyword.user_enters_and(String,String)"
+});
+formatter.result({
+  "duration": 1038302400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinationWithExamplesKeyword.user_unselect_the_Stay_signed_in_checkbox()"
+});
+formatter.result({
+  "duration": 83980900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinationWithExamplesKeyword.user_click_the_Sign_In_button()"
+});
+formatter.result({
+  "duration": 65984500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinationWithExamplesKeyword.user_is_directed_to_home_page()"
+});
+formatter.result({
+  "duration": 2114823700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 162400,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 196500,
   "status": "passed"
 });
 formatter.scenario({
   "line": 16,
-  "name": "",
-  "description": "This is 2nd scenario is to test hooks functionality with examples keyword",
-  "id": "test-hooks;;;2",
+  "name": "Validating user login with valid credentials",
+  "description": "",
+  "id": "validating-user-login-for-indeed-website;validating-user-login-with-valid-credentials;;3",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 10,
-  "name": "this is the step one",
+  "line": 5,
+  "name": "User comes to the landing page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 11,
-  "name": "this is the step two John",
+  "line": 6,
+  "name": "User click Sign in link",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "User is directed to sign in page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "User enters john_doe1@mailinator.com and john_doe",
   "matchedColumns": [
-    0
+    0,
+    1
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 12,
-  "name": "this is the step three Doe",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition_Hooks.this_is_the_step_one()"
-});
-formatter.result({
-  "duration": 45900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "John",
-      "offset": 21
-    }
-  ],
-  "location": "StepDefinition_Hooks.this_is_the_step_two(String)"
-});
-formatter.result({
-  "duration": 1863400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Doe",
-      "offset": 23
-    }
-  ],
-  "location": "StepDefinition_Hooks.this_is_the_step_three(String)"
-});
-formatter.result({
-  "duration": 70700,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 32400,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 43600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 17,
-  "name": "",
-  "description": "This is 2nd scenario is to test hooks functionality with examples keyword",
-  "id": "test-hooks;;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 10,
-  "name": "this is the step one",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 11,
-  "name": "this is the step two Kom",
-  "matchedColumns": [
-    0
-  ],
+  "line": 9,
+  "name": "User unselect the Stay signed in checkbox",
   "keyword": "When "
 });
 formatter.step({
-  "line": 12,
-  "name": "this is the step three Mary",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition_Hooks.this_is_the_step_one()"
-});
-formatter.result({
-  "duration": 49300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Kom",
-      "offset": 21
-    }
-  ],
-  "location": "StepDefinition_Hooks.this_is_the_step_two(String)"
-});
-formatter.result({
-  "duration": 100300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Mary",
-      "offset": 23
-    }
-  ],
-  "location": "StepDefinition_Hooks.this_is_the_step_three(String)"
-});
-formatter.result({
-  "duration": 219500,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 44600,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 56000,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 18,
-  "name": "",
-  "description": "This is 2nd scenario is to test hooks functionality with examples keyword",
-  "id": "test-hooks;;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
   "line": 10,
-  "name": "this is the step one",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 11,
-  "name": "this is the step two Sam",
-  "matchedColumns": [
-    0
-  ],
+  "name": "User click the Sign In button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 12,
-  "name": "this is the step three Moon",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition_Hooks.this_is_the_step_one()"
-});
-formatter.result({
-  "duration": 38000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Sam",
-      "offset": 21
-    }
-  ],
-  "location": "StepDefinition_Hooks.this_is_the_step_two(String)"
-});
-formatter.result({
-  "duration": 63900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Moon",
-      "offset": 23
-    }
-  ],
-  "location": "StepDefinition_Hooks.this_is_the_step_three(String)"
-});
-formatter.result({
-  "duration": 555600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 315300,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 497200,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 19,
-  "name": "",
-  "description": "This is 2nd scenario is to test hooks functionality with examples keyword",
-  "id": "test-hooks;;;5",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 10,
-  "name": "this is the step one",
-  "keyword": "Given "
-});
-formatter.step({
   "line": 11,
-  "name": "this is the step two Orio",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 12,
-  "name": "this is the step three Galaxy",
-  "matchedColumns": [
-    1
-  ],
+  "name": "User is directed to home page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepDefinition_Hooks.this_is_the_step_one()"
+  "location": "StepDefinationWithExamplesKeyword.user_comes_to_the_landing_page()"
 });
 formatter.result({
-  "duration": 67900,
+  "duration": 6188983700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinationWithExamplesKeyword.user_click_Sign_in_link()"
+});
+formatter.result({
+  "duration": 2398054700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinationWithExamplesKeyword.user_is_directed_to_sign_in_page()"
+});
+formatter.result({
+  "duration": 13860800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Orio",
-      "offset": 21
+      "val": "john_doe1@mailinator.com",
+      "offset": 12
+    },
+    {
+      "val": "john_doe",
+      "offset": 41
     }
   ],
-  "location": "StepDefinition_Hooks.this_is_the_step_two(String)"
+  "location": "StepDefinationWithExamplesKeyword.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 166500,
+  "duration": 558380900,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Galaxy",
-      "offset": 23
-    }
-  ],
-  "location": "StepDefinition_Hooks.this_is_the_step_three(String)"
+  "location": "StepDefinationWithExamplesKeyword.user_unselect_the_Stay_signed_in_checkbox()"
 });
 formatter.result({
-  "duration": 87400,
+  "duration": 67829300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinationWithExamplesKeyword.user_click_the_Sign_In_button()"
+});
+formatter.result({
+  "duration": 56735200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinationWithExamplesKeyword.user_is_directed_to_home_page()"
+});
+formatter.result({
+  "duration": 2488401400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 41200,
+  "duration": 76200,
   "status": "passed"
 });
 });
