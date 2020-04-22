@@ -83,7 +83,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 356500,
+  "duration": 147900,
   "status": "passed"
 });
 formatter.scenario({
@@ -137,21 +137,21 @@ formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_comes_to_the_landing_page()"
 });
 formatter.result({
-  "duration": 7330258100,
+  "duration": 7262263500,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_click_Sign_in_link()"
 });
 formatter.result({
-  "duration": 2453053700,
+  "duration": 2489079200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_is_directed_to_sign_in_page()"
 });
 formatter.result({
-  "duration": 73082500,
+  "duration": 13229100,
   "status": "passed"
 });
 formatter.match({
@@ -168,36 +168,36 @@ formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 1038302400,
+  "duration": 616536100,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_unselect_the_Stay_signed_in_checkbox()"
 });
 formatter.result({
-  "duration": 83980900,
+  "duration": 65585400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_click_the_Sign_In_button()"
 });
 formatter.result({
-  "duration": 65984500,
+  "duration": 68142400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_is_directed_to_home_page()"
 });
 formatter.result({
-  "duration": 2114823700,
+  "duration": 2135969700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 162400,
+  "duration": 153900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 196500,
+  "duration": 183300,
   "status": "passed"
 });
 formatter.scenario({
@@ -251,21 +251,21 @@ formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_comes_to_the_landing_page()"
 });
 formatter.result({
-  "duration": 6188983700,
+  "duration": 6251410900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_click_Sign_in_link()"
 });
 formatter.result({
-  "duration": 2398054700,
+  "duration": 2418272200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_is_directed_to_sign_in_page()"
 });
 formatter.result({
-  "duration": 13860800,
+  "duration": 21962800,
   "status": "passed"
 });
 formatter.match({
@@ -282,32 +282,32 @@ formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 558380900,
+  "duration": 614437500,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_unselect_the_Stay_signed_in_checkbox()"
 });
 formatter.result({
-  "duration": 67829300,
+  "duration": 74046700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_click_the_Sign_In_button()"
 });
 formatter.result({
-  "duration": 56735200,
+  "duration": 63266600,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationWithExamplesKeyword.user_is_directed_to_home_page()"
 });
 formatter.result({
-  "duration": 2488401400,
+  "duration": 2199137400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 76200,
+  "duration": 169400,
   "status": "passed"
 });
 });
